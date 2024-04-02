@@ -12,7 +12,7 @@ console.log(getSalary(Janet));
 
 // CREATE A NEW FUNCTION THAT UPDATES EMPLOYEE SALARY
 
-const updateSalary = (employee) => {
+const updateSalary = (employee, newSalary) => {
     employee.salary = newSalary;
     return `Mrs, ${employee.name}'s new salary is ${employee.salary} per month`;
 }
