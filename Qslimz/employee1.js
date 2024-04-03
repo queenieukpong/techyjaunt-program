@@ -14,7 +14,7 @@ console.log(getSalary(Janet));
 
 const updateSalary = (employee, newSalary) => {
     employee.salary = newSalary;
-    return `Mrs, ${employee.name}'s new salary is ${employee.salary} per month`;
+    return `Mrs, ${employee.name}'s new salary is now ${employee.salary} per month`;
 }
 
 console.log(updateSalary(Janet, 60000));
